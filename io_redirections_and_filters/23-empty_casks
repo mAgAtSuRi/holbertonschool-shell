@@ -1,2 +1,2 @@
 #!/bin/bash
-find . \( -type f -o -type d \) -exec basename {} \;
+find . \( -type f -o -type d \) -printf "%f\n"
